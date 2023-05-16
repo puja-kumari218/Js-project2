@@ -43,7 +43,7 @@ p {
   margin-bottom: 20px;
   color: rgb(84, 82, 82);
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
   h1 {
     font-size: 64px;
   }
@@ -116,7 +116,7 @@ p {
   justify-content: center;
 }
 /*
- 
+
 Navbar
 */
 
@@ -197,17 +197,17 @@ Navbar
   }
   .nav-links {
     display: flex;
-    font-size: 1.5rem;
+    font-size: 16px;
     text-transform: capitalize;
   }
   .nav-link {
-    color: var(--clr-white);
+    color: black;
     margin-right: 3rem;
-      transition: var(--transition);
+      transition: all 0.3s linear;
     font-size: 1.25rem;
   }
   .nav-link:hover {
-    color: var(--clr-primary-5);
+    color: black;
   }
 }
 @media screen and (min-width: 992px) {
@@ -217,20 +217,20 @@ Navbar
 }
 /* page navbar */
 .page .nav-link {
-  color: var(--clr-grey-1);
+  color: black;
 }
 .page .nav-link:hover {
-  color: var(--clr-primary-5);
+  color: black;
 }
 .page .toggle-cart {
-  color: var(--clr-grey-1);
+  color: black;
 }
 
 
 .hero {
   min-height: 100vh;
   margin-top: -96px;
-  background: linear-gradient(rgba(252, 251, 251, 0.5), rgba(56, 43, 43, 0.5)),
+  background: linear-gradient(rgba(228, 217, 217, 0.5), rgba(56, 43, 43, 0.5)),
     url(https://media.istockphoto.com/id/1266344041/photo/3d-rendering-of-rough-edge-plank-dining-table.jpg?b=1&s=170667a&w=0&k=20&c=NkwfGPW-xas5C3zW_vlYdfqzaWCeK-f9mcAxNYN7Jr4=) center/cover;
   display: grid;
   place-items: center;
@@ -456,11 +456,6 @@ Navbar
   font-size:19px;
   margin-right: 16px;
 }
-/*
-=============== 
-product
-===============
-*/
 .product-img {
   height: 15rem;
   object-fit: cover;
@@ -541,6 +536,7 @@ product
     height: 200px;
   }
 }
+
 .about-text {
   line-height: 2;
   max-width: 720px;
@@ -548,10 +544,6 @@ product
   margin-top: 16px;
 }
 
-/*
-Products Page
-
-*/
 .products {
   width: 90vw;
   display: grid;
